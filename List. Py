@@ -1,0 +1,23 @@
+mylist=['english','french','maths','computer']
+
+print(mylist)
+
+print(mylist[2])
+
+print(len(mylist))
+
+mylist.append("physics")
+
+print (mylist)
+
+mylist. insert (1,"chemistry")
+
+print(mylist)
+
+mylist.remove ('maths')
+
+print(mylist)
+
+mylist.sort(reverse=True)
+
+print(mylist)
