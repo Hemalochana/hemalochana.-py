@@ -1,0 +1,16 @@
+tup1=(23,18,27,"tamil","english",22.1)
+#to access the entire tuple
+print(tup1)
+#to access the particular elements in tuple
+print(tup1[2:5])
+#to access elements from first to specified index
+print(tup1[:5])
+#to access all the elements from the 4th index
+print(tup1[4:])
+#to access the entire tuple
+print(tup1[:])
+#tuple is immutable elements cannot be added, instead two tuples can be joined Or delete the entire tuple
+#adding two different tuple
+tup2=("hema","lochana")
+tup1+=tup2
+print (tup1)
