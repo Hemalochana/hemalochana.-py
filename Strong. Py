@@ -1,0 +1,81 @@
+#concatenation
+
+str="welcome"+"python"
+
+print(str)
+
+#append
+
+str1="welcome to"
+
+str1+=" Learn python"
+
+print (str1)
+
+#repeat
+
+str2="hello"
+
+print(str2*4)
+
+#string slicing
+
+str3="hemalochana"
+
+print(str3[0])
+
+print(str3[0:4])
+
+print(str3[:4])
+
+print(str3[4:])
+
+#stride when slicing
+
+str4="welcome to learn python"
+
+print(str4[10:16])
+
+print(str4[10:16:4])
+
+print(str4[10:16:2])
+
+print(str4[::3])
+
+print(str4[::-2])
+
+#over writting a string
+
+str5="how are you?"
+
+print(str5)
+
+str5="how about you?"
+
+print(str5)
+
+#replace()in string
+
+str6="mam"
+
+print(str6.replace('a','o'))
+
+#string formatting
+
+name="hemalochana"
+
+age= 18
+
+print("name:%s and age:%d"%(name,age))
+
+#str length 
+
+str7="computer"
+
+print(len(str7))
+
+print(str7.capitalize())
+
+print(str7.islower())
+
+print(str7.isupper())
