@@ -1,23 +1,26 @@
 mylist=['english','french','maths','computer']
-
+#to print the entire list
 print(mylist)
-
+#to access the specific element using index value
 print(mylist[2])
-
+#to find the length of the list
 print(len(mylist))
-
+#to add a new element to end existing list
 mylist.append("physics")
+print(mylist) 
 
-print (mylist)
+#to add a new element to the existing list in the specific index position
+
 
 mylist. insert (1,"chemistry")
 
 print(mylist)
-
+#to remove a selected element from the list
 mylist.remove ('maths')
 
 print(mylist)
-
+#to print the entire list in the reverse order
 mylist.sort(reverse=True)
-
 print(mylist)
+
+
