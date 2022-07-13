@@ -1,0 +1,18 @@
+#build in functions
+import base64
+a=input("enter the value:")
+#length of str
+print(len(a))
+#capitalize the first letter
+print(a.capitalize())
+b=input("enter the string :")
+#swapcase
+print(b.swapcase())
+#uppercase
+print(b.upper())
+#lowercase
+print(b.lower())
+#split and replace
+c=input("enter the string :")
+print(c.split())
+print(c.replace("how","what"))
