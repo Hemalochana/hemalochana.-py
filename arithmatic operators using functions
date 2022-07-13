@@ -1,0 +1,13 @@
+#function
+def arith(a1,b1):
+ sum=a1+b1
+ difference=a1-b1
+ product=a1*b1
+ divide=a1/b1
+ print("the sum is",sum)
+ print("the difference is",difference)
+ print("the product is",product)
+ print("the divide is",divide)
+a=int(input("enter the number:"))
+b=int(input("enter the number:"))
+arith(a,b)
